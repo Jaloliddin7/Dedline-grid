@@ -98,7 +98,7 @@ ul{
 .author span:first-child{
     margin-right: 5px;
 }
-.grid ul{
+.grid .cards-top-list{
     display: grid;
     gap: 50px 20px;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
@@ -212,10 +212,35 @@ ul{
     margin-bottom: 28px;
 }
 
-/* CARDS-TOP */
-.card-img{
-
+/* CARDS-MIDDLE */
+.cards-middle .cards-top-list{
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
 }
-/* CARDS-TOP */
+.send{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 21px 26px;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+/* CARDS-MIDDLE END */
+
+/* CADS-BUTTON */
+.cards-button .cards-top-list{
+    grid-template-columns: repeat(auto-fit,minmax(400px , 1fr));
+}
+.cards-button{
+    margin-bottom: 90px;
+}
+/* CADS-BUTTON END */
+
 
 /* MAIN END */
