@@ -282,7 +282,6 @@ ul{
 .footer-item{
     display: flex;
     flex-direction: column;
-    gap: 15px;
 }
 .footer-link{
     color: #FFFFFF;
@@ -294,7 +293,6 @@ ul{
     padding: 18px 23px 18px 24px;
 }
 .emeil::placeholder{
-    width: min(100%,174px);
     font-family: 'Libre Franklin';
     font-style: normal;
     font-weight: 400;
@@ -337,5 +335,18 @@ ul{
 }
 .middle-subtitle{
     margin: 70px 0px 20px;
+}
+.TOP{
+    visibility: hidden;
+}
+.sub{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.a1{
+    margin-bottom: 15px;
+}
+.a2{
+    margin-bottom: 10px;
 }
 /* FOOTER END */
